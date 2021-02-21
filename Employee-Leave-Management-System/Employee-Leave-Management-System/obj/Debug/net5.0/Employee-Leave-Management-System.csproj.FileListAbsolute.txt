@@ -392,3 +392,5 @@ D:\asp.net core\Employee-Leave-Management-System\Employee-Leave-Management-Syste
 D:\asp.net core\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\obj\Debug\net5.0\ref\Employee-Leave-Management-System.dll
 D:\asp.net core\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\obj\Debug\net5.0\Employee-Leave-Management-System.pdb
 D:\asp.net core\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\obj\Debug\net5.0\Employee-Leave-Management-System.genruntimeconfig.cache
+D:\asp.net core\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\bin\Debug\net5.0\AutoMapper.dll
+D:\asp.net core\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
