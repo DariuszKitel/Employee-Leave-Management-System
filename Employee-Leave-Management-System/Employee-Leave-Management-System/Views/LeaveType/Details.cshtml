@@ -5,11 +5,11 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<h1 class="text-center">Details</h1>
 
 <div>
     <hr />
-    <dl class="row">
+    <dl class="row col-md-12">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Name)
         </dt>
@@ -25,6 +25,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Edit</a>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary"><i class="fa fa-pencil"></i>Edit</a>
     <a asp-action="Index" class="btn btn-primary">Back to List</a>
 </div>
