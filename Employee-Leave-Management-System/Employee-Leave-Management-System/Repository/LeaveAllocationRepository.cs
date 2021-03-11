@@ -49,5 +49,11 @@ namespace Employee_Leave_Management_System.Repository
             var exists = _db.LeaveAllocations.Any(q => q.Id == id);
             return exists;
         }
+
+        public bool CheckAllocation(int leaveTypeId, string employeeId)
+        {
+            var period = DateTime.Now.Year;
+            return FindAll().Where(q => q.EmployeeId == employeeId && q.LeaveTypeId == leaveTypeId && q.Period == period).Any();
+        }
     }
 }

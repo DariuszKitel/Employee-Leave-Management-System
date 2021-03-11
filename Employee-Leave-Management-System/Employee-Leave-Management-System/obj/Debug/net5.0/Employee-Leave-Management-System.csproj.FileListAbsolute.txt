@@ -482,3 +482,5 @@ D:\asp.net core\Employee-Leave-Management-System\Employee-Leave-Management-Syste
 D:\asp.net core\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
 D:\asp.net core\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 D:\asp.net core\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\asp.net core\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\obj\Debug\net5.0\Razor\Views\LeaveAllocation\Index.cshtml.g.cs
+D:\asp.net core\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\Employee-Leave-Management-System\obj\Debug\net5.0\Razor\Views\LeaveAllocation\ListEmployees.cshtml.g.cs
