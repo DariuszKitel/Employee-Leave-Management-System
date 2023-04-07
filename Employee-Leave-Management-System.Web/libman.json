@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "sweetalert@2.1.2",
+      "destination": "wwwroot/lib/sweetalert/"
+    }
+  ,
+{
+  "provider": "cdnjs",
+  "library": "font-awesome@6.4.0",
+  "destination": "wwwroot/lib/font-awesome/"
+}
+]
+}
