@@ -4,9 +4,12 @@ using Employee_Leave_Management_System.Web.Data.Entities;
 using AutoMapper;
 using Employee_Leave_Management_System.Web.Models.Dtos;
 using Employee_Leave_Management_System.Web.Contracts;
+using Microsoft.AspNetCore.Authorization;
+using Employee_Leave_Management_System.Web.Constants;
 
 namespace Employee_Leave_Management_System.Web.Controllers
 {
+	[Authorize(Roles = Roles.ADMINISTRATOR)]
 	public class LeaveTypesController : Controller
 	{
 		private readonly ILeaveTypeRepository _leaveTypeRepository;
@@ -78,7 +81,7 @@ namespace Employee_Leave_Management_System.Web.Controllers
 				try
 				{
 					var leaveTypeEntity = _mapper.Map<LeaveType>(leaveTypeDto);
-					await _leaveTypeRepository.AddAsync(leaveTypeEntity);
+					await _leaveTypeRepository.UpdateAsync(leaveTypeEntity);
 				}
 				catch (DbUpdateConcurrencyException)
 				{

@@ -15,7 +15,7 @@ namespace Employee_Leave_Management_System.Web.Repositories
         public async Task<T> AddAsync(T entity)
 		{
 			await _dbContext.AddAsync(entity);
-			SaveChangesAsync();
+			await _dbContext.SaveChangesAsync(); 
 			return entity;
 		}
 
@@ -23,7 +23,7 @@ namespace Employee_Leave_Management_System.Web.Repositories
 		{
 			var entityRecord = await _dbContext.Set<T>().FindAsync(id);
 			_dbContext.Set<T>().Remove(entityRecord);
-			SaveChangesAsync();
+			await _dbContext.SaveChangesAsync();
 		}
 
 		public async Task<bool> Exists(int id)
@@ -49,12 +49,8 @@ namespace Employee_Leave_Management_System.Web.Repositories
 		public async Task UpdateAsync(T entity)
 		{
 			_dbContext.Update(entity);
-			SaveChangesAsync();
-		}
-
-		private async void SaveChangesAsync()
-		{
 			await _dbContext.SaveChangesAsync();
 		}
+
 	}
 }
